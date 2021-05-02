@@ -15,5 +15,4 @@ SetOption19 0 // Use Tasmota integration for autodiscovery (requires MQTT integr
 
 SetOption30 1  // Autodiscover relay as light
 
-
-
+SetOption13 1 // Button press immediate action
