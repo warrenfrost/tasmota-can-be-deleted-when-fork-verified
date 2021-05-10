@@ -1,10 +1,17 @@
+Useelink 1 Gang Wall Switch
+
+{"NAME":"Useelink 1 Gang Wall Switch","GPIO":[544,0,0,0,0,0,0,0,32,224,0,0,0,0],"FLAG":0,"BASE":18}
+
+
+Useelink 2 Gang Wall Switch
+
+{"NAME":"Useelink 2 Gang Wall Switch","GPIO":[544,288,0,33,225,0,0,0,32,224,0,0,0,4704],"FLAG":0,"BASE":18}
+
+
 Useelink 3 Gang Wall Switch
 
 {"NAME":"Useelink 3 Gang Wall Switch","GPIO":[544,0,0,33,225,34,0,0,32,224,0,226,0,0],"FLAG":0,"BASE":18}
 
-Useelink 1 Gang Wall Switch
-
-{"NAME":"Useelink 1 Gang Wall Switch","GPIO":[544,0,0,0,0,0,0,0,32,224,0,0,0,0],"FLAG":0,"BASE":18}
 
 
 Standard Options
