@@ -16,6 +16,10 @@ Useelink 3 Gang Wall Switch
 
 Standard Options
 
+
+Backlog SetOption0 0; SetOption36 1; SetOption19 0; SetOption30 1; SetOption13 1; SetOption55 1
+
+
 Backlog SetOption0 0; SetOption36 1 // Prevent boot loops
 
 SetOption19 0 // Use Tasmota integration for autodiscovery (requires MQTT integration set up)
@@ -23,3 +27,15 @@ SetOption19 0 // Use Tasmota integration for autodiscovery (requires MQTT integr
 SetOption30 1  // Autodiscover relay as light
 
 SetOption13 1 // Button press immediate action
+
+SetOption55 1 // Enable mDNS
+
+Device Grouping
+
+SetOption85 1  // Enable device groups - multicast
+
+SetOption88 1  // Enable individual device groups per relay
+
+DevGroupName1 stairs // Set the device group name for relay 1 - default is to use MQTT group topic
+
+DevGroupTie1 0 // Diasble device group for relay 1
